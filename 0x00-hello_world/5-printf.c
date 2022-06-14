@@ -1,4 +1,8 @@
-# include <stdio.h>
+/**
+ * this program prints something about grammar
+ */
+
+#include <stdio.h>
 
 int main(void)
 {
