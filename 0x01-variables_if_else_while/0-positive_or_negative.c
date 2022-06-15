@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main -> assigns a random number to the variable n each time it is executed
-*based on a condition
-*Return : Always 0 (Success)
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
