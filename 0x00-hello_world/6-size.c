@@ -7,5 +7,5 @@ printf("the size of an int is %d\n", sizeof(int));
 printf("the size of a long int is %d\n", sizeof(long int));
 printf("the size of a long long int is %d\n", sizeof(long long int));
 printf("the size of a float is %d\n", sizeof(float));
-
+return (0);
 }	
