@@ -1,20 +1,22 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-
+  * main - Entry point
+  *
+  * Description - a program that prints the alphabet in lowercase,
+  * followed by a new line.
+  * Return: Always 1 (success)
+  */
 int main(void)
 {
-	int ch;
-	for (ch = 97; ch <= 122; ch++)
-	{
-		putchar(ch);
-	}
-	putchar(10);
+	char alphabet;
 
+	alphabet = 'a';
+	while (alphabet <= 'z')
+	{
+		putchar(alphabet);
+		if (alphabet == 'z')
+			putchar('\n');
+		alphabet++;
+	}
 	return (0);
 }
