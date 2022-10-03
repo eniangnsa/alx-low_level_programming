@@ -10,16 +10,13 @@ int main(int argc, char *argv[])
 {
 	(void) argc;
 
-	int prod, first, second;
-
 	if (argv[1] && argv[2])
-		first = atoi(argv[1]); /* to convert strinng to int */
-		second = atoi(argv[2]); /* to convert string to int */
-		prod = first * second;
-		printf("%d\n", prod);
+	{
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 		return (0);
-
+	}
 	else
-		printf("Error");
+		printf("Error\n");
+
 	return (1);
 }
