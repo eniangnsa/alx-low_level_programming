@@ -14,4 +14,4 @@ size_t list_len(const list_t *h)
 		list_length++;
 
 	return (list_length);
-}}
+}
